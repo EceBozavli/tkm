@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAŞ KAĞIT MAKAS OYUNU</title>
+  <link rel="stylesheet" href="assets/css/tkm.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <script src="assets/js/tkm.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div id="title" class="title">
+        <h3>ROCK <br>PAPER <br>SCISSORS</h3>
+      </div>
+      <div class="score">
+        <p>SCORE</p>
+        <h5 id="countScore" class="countScore">12</h5>
+      </div>
+    </div>
+
+    <div class="hero">
+
+      <img src="assets/img/triangle.png" alt="triangle" class="triangle">
+
+      <div class="hero-section">
+
+        <div class="hero-section-inner">
+
+          <button id="kagitBtn" class="kagitBtn">
+            <img src="assets/img/kagit.png" alt="kagit">
+          </button>
+          <button id="makasBtn"class="makasBtn">
+            <img src="assets/img/makass.png" alt="makas">
+          </button>
+          
+        </div>
+        <button id="tasBtn" class="tasBtn">
+          <img src="assets/img/tas.png" alt="tas">
+        </button>
+      </div>
+      <div id="selection" class="selection">
+        <div class="oyuncuSecimi">
+          <h5 id="oyuncu" class="oyuncu"></h5>
+          <p>YOU PICKED</p>
+        </div>
+        <div class="bilgisayarSecimi">
+          <h5 id="bilgisayar" class="bilgisayar"></h5>
+          <p>THE HOUSE PICKED</p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="result">
+
+      <div id="winner" class="winner">
+        <h1>YOU WIN</h1>
+        <button id="playAgain" class="playAgain">PLAY AGAIN</button>
+      </div>
+      <div id="loser" class="loser">
+        <h1>YOU LOSE</h1>
+        <button id="playAgain" class="playAgain">PLAY AGAIN</button>
+      </div>
+
+    </div>
+    <div class="rulesBtn-section">
+      <button class="rulesBtn">RULES</button>
+    </div>
+    <div class="rules">
+      <h1>RULES</h1>
+      <img src="assets/img/rules.png" alt="rules">
+      <a href="/"  class="xBtn">X</a>
+    </div> 
+
+  </div>
+</body>
+</html>
